@@ -1,0 +1,6643 @@
+{
+  "formatVersion" : 1,
+  "observedOS" : "macOS 13.7.8 (22H730)",
+  "PaletteProvenance" : {
+    "appKitInputSHA256" : "ae36964d63736b7d4df0f28cdc6da0db86234bc47f8cb1195e057a70e9b22f33",
+    "cgObservationSHA256" : "f9d7f0b0cead57cd662f60fa5adc983b0e6eab1f66cf9372c889e3ba3a706d7e",
+    "colorCount" : 275,
+    "historicalFieldsPreserved" : [
+      "components",
+      "extendedSRGB"
+    ],
+    "isolatedHome" : "\/Users\/torrekie\/proj\/TerminalColorPanelKit\/work\/provider\/palette-home",
+    "method" : "Public NSColorList colorListNamed:\/colorWithKey:, original NSColor.CGColor, CGColorGetComponents and CGColorSpaceCopyName. No color conversion or description parsing.",
+    "observedOS" : "Version 13.7.8 (Build 22H730)",
+    "palettes" : [
+      "Apple",
+      "Crayons",
+      "Web Safe Colors"
+    ],
+    "probe" : "tests\/provider\/PaletteCGComponentsProbe.m",
+    "probeExecutableSHA256" : "481bf4ac4eafa094a7edbbcf7ab74c2680037d3051443f9caf9f51b2d4d3cd32",
+    "probeSourceSHA256" : "24d7e2c4a5d2c4d3a22d0a44661b0f7482b32435354fa8ce1efc3fcd09b2ae70",
+    "sourceJSONBeforeRefreshSHA256" : "92601825c126809bae0ab6b66c29747a24dc66aabb59ecaf6529c4279144a49c"
+  },
+  "palettes" : [
+    {
+      "colors" : [
+        {
+          "cgComponents" : [
+            0,
+            0,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0,
+            0,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0,
+            0,
+            0,
+            1
+          ],
+          "name" : "Black",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.016804177310000001,
+            0.19835099580000001,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.016804177310000001,
+            0.19835099580000001,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.016804177314043045,
+            0.19835102558135986,
+            1,
+            1
+          ],
+          "name" : "Blue",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.66799789669999998,
+            0.47512125970000002,
+            0.25860109930000003,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.66799789669999998,
+            0.47512125970000002,
+            0.25860109930000003,
+            1
+          ],
+          "extendedSRGB" : [
+            0.66799789667129517,
+            0.47512125968933105,
+            0.25860109925270081,
+            1
+          ],
+          "name" : "Brown",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.99143940210000003,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0,
+            0.99143940210000003,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0,
+            0.99143940210342407,
+            1,
+            1
+          ],
+          "name" : "Cyan",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.97680455450000003,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0,
+            0.97680455450000003,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0,
+            0.97680455446243286,
+            0,
+            1
+          ],
+          "name" : "Green",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.2527923882,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            1,
+            0.2527923882,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            1,
+            0.25279238820075989,
+            1,
+            1
+          ],
+          "name" : "Magenta",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.57637232540000005,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            1,
+            0.57637232540000005,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            1,
+            0.57637232542037964,
+            0,
+            1
+          ],
+          "name" : "Orange",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.57919406890000003,
+            0.1280144453,
+            0.57268613580000005,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.57919406890000003,
+            0.1280144453,
+            0.57268613580000005,
+            1
+          ],
+          "extendedSRGB" : [
+            0.57919406890869141,
+            0.12801444530487061,
+            0.57268613576889038,
+            1
+          ],
+          "name" : "Purple",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.14913141730000001,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            1,
+            0.14913141730000001,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            1,
+            0.1491314172744751,
+            0,
+            1
+          ],
+          "name" : "Red",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.99942404029999998,
+            0.98555368190000003,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.99942404029999998,
+            0.98555368190000003,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.99942398071289062,
+            0.98555368185043335,
+            0,
+            1
+          ],
+          "name" : "Yellow",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.99999600649999998,
+            1,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.99999600649999998,
+            1,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.99999600648880005,
+            1,
+            1,
+            1
+          ],
+          "name" : "White",
+          "space" : "sRGB IEC61966-2.1"
+        }
+      ],
+      "name" : "Apple"
+    },
+    {
+      "colors" : [
+        {
+          "cgComponents" : [
+            0,
+            0,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0,
+            0,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0,
+            0,
+            0,
+            1
+          ],
+          "name" : "Licorice",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.12984204290000001,
+            0.12984612579999999,
+            0.12984395030000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.12984204290000001,
+            0.12984612579999999,
+            0.12984395030000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.12984205782413483,
+            0.12984612584114075,
+            0.12984396517276764,
+            1
+          ],
+          "name" : "Lead",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.26051741839999998,
+            0.2605243921,
+            0.260520637,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.26051741839999998,
+            0.2605243921,
+            0.260520637,
+            1
+          ],
+          "extendedSRGB" : [
+            0.260517418384552,
+            0.26052439212799072,
+            0.26052063703536987,
+            1
+          ],
+          "name" : "Tungsten",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.37055522200000002,
+            0.37056469920000001,
+            0.37055957319999999,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.37055522200000002,
+            0.37056469920000001,
+            0.37055957319999999,
+            1
+          ],
+          "extendedSRGB" : [
+            0.37055522203445435,
+            0.37056469917297363,
+            0.37055957317352295,
+            1
+          ],
+          "name" : "Iron",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.4756349325,
+            0.47564673419999998,
+            0.47564041610000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.4756349325,
+            0.47564673419999998,
+            0.47564041610000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.47563493251800537,
+            0.4756467342376709,
+            0.47564041614532471,
+            1
+          ],
+          "name" : "Steel",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.57045853140000002,
+            0.57047235969999999,
+            0.57046490910000003,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.57045853140000002,
+            0.57047235969999999,
+            0.57046490910000003,
+            1
+          ],
+          "extendedSRGB" : [
+            0.57045853137969971,
+            0.5704723596572876,
+            0.57046490907669067,
+            1
+          ],
+          "name" : "Tin",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.57414853570000002,
+            0.57416242360000003,
+            0.57415497299999996,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.57414853570000002,
+            0.57416242360000003,
+            0.57415497299999996,
+            1
+          ],
+          "extendedSRGB" : [
+            0.57414853572845459,
+            0.57416242361068726,
+            0.57415497303009033,
+            1
+          ],
+          "name" : "Nickel",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.66422420739999999,
+            0.66424006219999998,
+            0.66423153879999997,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.66422420739999999,
+            0.66424006219999998,
+            0.66423153879999997,
+            1
+          ],
+          "extendedSRGB" : [
+            0.66422420740127563,
+            0.66424006223678589,
+            0.66423153877258301,
+            1
+          ],
+          "name" : "Aluminum",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.75406885150000003,
+            0.75408679249999999,
+            0.75407713649999997,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.75406885150000003,
+            0.75408679249999999,
+            0.75407713649999997,
+            1
+          ],
+          "extendedSRGB" : [
+            0.75406885147094727,
+            0.75408685207366943,
+            0.75407719612121582,
+            1
+          ],
+          "name" : "Magnesium",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.83741801979999997,
+            0.83743780850000005,
+            0.83742713930000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.83741801979999997,
+            0.83743780850000005,
+            0.83742713930000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.83741801977157593,
+            0.83743780851364136,
+            0.83742713928222656,
+            1
+          ],
+          "name" : "Silver",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.92143100499999997,
+            0.92145264149999995,
+            0.92144101860000005,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.92143100499999997,
+            0.92145264149999995,
+            0.92144101860000005,
+            1
+          ],
+          "extendedSRGB" : [
+            0.92143100500106812,
+            0.92145264148712158,
+            0.92144101858139038,
+            1
+          ],
+          "name" : "Mercury",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.99999600649999998,
+            1,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.99999600649999998,
+            1,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.99999600648880005,
+            1,
+            1,
+            1
+          ],
+          "name" : "Snow",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.58072251080000004,
+            0.066734083,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.58072251080000004,
+            0.066734083,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.58072251081466675,
+            0.066734082996845245,
+            0,
+            1
+          ],
+          "name" : "Cayenne",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.57874745130000005,
+            0.32151988149999999,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.57874745130000005,
+            0.32151988149999999,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.5787474513053894,
+            0.3215198814868927,
+            0,
+            1
+          ],
+          "name" : "Mocha",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.57380741830000004,
+            0.56553578380000002,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.57380741830000004,
+            0.56553578380000002,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.57380741834640503,
+            0.5655357837677002,
+            0,
+            1
+          ],
+          "name" : "Asparagus",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.30840110780000002,
+            0.5618229508,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.30840110780000002,
+            0.5618229508,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.30840110778808594,
+            0.56182295083999634,
+            0,
+            1
+          ],
+          "name" : "Fern",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.56031829119999998,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0,
+            0.56031829119999998,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0,
+            0.56031829118728638,
+            0,
+            1
+          ],
+          "name" : "Clover",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.56284224989999998,
+            0.31881666180000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0,
+            0.56284224989999998,
+            0.31881666180000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0,
+            0.56284224987030029,
+            0.3188166618347168,
+            1
+          ],
+          "name" : "Moss",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.56904578210000001,
+            0.57461684940000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0,
+            0.56904578210000001,
+            0.57461684940000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0,
+            0.5690457820892334,
+            0.57461684942245483,
+            1
+          ],
+          "name" : "Teal",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.32852089410000002,
+            0.57488495110000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0,
+            0.32852089410000002,
+            0.57488495110000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0,
+            0.32852089405059814,
+            0.57488495111465454,
+            1
+          ],
+          "name" : "Ocean",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.0048598507420000003,
+            0.096086271109999996,
+            0.57499289509999996,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.0048598507420000003,
+            0.096086271109999996,
+            0.57499289509999996,
+            1
+          ],
+          "extendedSRGB" : [
+            0.004859851207584143,
+            0.096086271107196808,
+            0.57499289512634277,
+            1
+          ],
+          "name" : "Midnight",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.32369780539999998,
+            0.1063579395,
+            0.574860394,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.32369780539999998,
+            0.1063579395,
+            0.574860394,
+            1
+          ],
+          "extendedSRGB" : [
+            0.32369780540466309,
+            0.10635794699192047,
+            0.57486039400100708,
+            1
+          ],
+          "name" : "Eggplant",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.58105844259999995,
+            0.12855249639999999,
+            0.57453137639999996,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.58105844259999995,
+            0.12855249639999999,
+            0.57453137639999996,
+            1
+          ],
+          "extendedSRGB" : [
+            0.58105844259262085,
+            0.12855249643325806,
+            0.57453137636184692,
+            1
+          ],
+          "name" : "Plum",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.58081901069999997,
+            0.088427625600000004,
+            0.31863921880000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.58081901069999997,
+            0.088427625600000004,
+            0.31863921880000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.58081901073455811,
+            0.088427618145942688,
+            0.31863921880722046,
+            1
+          ],
+          "name" : "Maroon",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.14913141730000001,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            1,
+            0.14913141730000001,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            1,
+            0.1491314172744751,
+            0,
+            1
+          ],
+          "name" : "Maraschino",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.57810515169999999,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            1,
+            0.57810515169999999,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            1,
+            0.57810515165328979,
+            0,
+            1
+          ],
+          "name" : "Tangerine",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.99942404029999998,
+            0.98555368190000003,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.99942404029999998,
+            0.98555368190000003,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.99942398071289062,
+            0.98555368185043335,
+            0,
+            1
+          ],
+          "name" : "Lemon",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.55634254220000001,
+            0.97934550050000002,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.55634254220000001,
+            0.97934550050000002,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.55634254217147827,
+            0.97934550046920776,
+            0,
+            1
+          ],
+          "name" : "Lime",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.97680455450000003,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0,
+            0.97680455450000003,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0,
+            0.97680455446243286,
+            0,
+            1
+          ],
+          "name" : "Spring",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.98106676339999999,
+            0.57369142770000003,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0,
+            0.98106676339999999,
+            0.57369142770000003,
+            1
+          ],
+          "extendedSRGB" : [
+            0,
+            0.98106676340103149,
+            0.57369142770767212,
+            1
+          ],
+          "name" : "Sea Foam",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.99143940210000003,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0,
+            0.99143940210000003,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0,
+            0.99143940210342407,
+            1,
+            1
+          ],
+          "name" : "Turquoise",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.58980089430000004,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0,
+            0.58980089430000004,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0,
+            0.58980089426040649,
+            1,
+            1
+          ],
+          "name" : "Aqua",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.016804177310000001,
+            0.19835099580000001,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.016804177310000001,
+            0.19835099580000001,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.016804177314043045,
+            0.19835102558135986,
+            1,
+            1
+          ],
+          "name" : "Blueberry",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.58188301320000002,
+            0.21569153669999999,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.58188301320000002,
+            0.21569153669999999,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.5818830132484436,
+            0.21569153666496277,
+            1,
+            1
+          ],
+          "name" : "Grape",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.2527923882,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            1,
+            0.2527923882,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            1,
+            0.25279238820075989,
+            1,
+            1
+          ],
+          "name" : "Magenta",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.1857388616,
+            0.57339501380000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            1,
+            0.1857388616,
+            0.57339501380000002,
+            1
+          ],
+          "extendedSRGB" : [
+            1,
+            0.18573887646198273,
+            0.5733950138092041,
+            1
+          ],
+          "name" : "Strawberry",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.49327188729999999,
+            0.47399842739999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            1,
+            0.49327188729999999,
+            0.47399842739999998,
+            1
+          ],
+          "extendedSRGB" : [
+            1,
+            0.49327188730239868,
+            0.47399842739105225,
+            1
+          ],
+          "name" : "Salmon",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.83234566450000003,
+            0.47320586440000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            1,
+            0.83234566450000003,
+            0.47320586440000001,
+            1
+          ],
+          "extendedSRGB" : [
+            1,
+            0.83234566450119019,
+            0.47320586442947388,
+            1
+          ],
+          "name" : "Cantaloupe",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.99953407049999998,
+            0.98835557699999999,
+            0.47265523669999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.99953407049999998,
+            0.98835557699999999,
+            0.47265523669999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.99953407049179077,
+            0.98835563659667969,
+            0.47265526652336121,
+            1
+          ],
+          "name" : "Banana",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.83216959239999999,
+            0.98548370600000001,
+            0.47333085539999997,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.83216959239999999,
+            0.98548370600000001,
+            0.47333085539999997,
+            1
+          ],
+          "extendedSRGB" : [
+            0.83216959238052368,
+            0.98548376560211182,
+            0.47333085536956787,
+            1
+          ],
+          "name" : "Honeydew",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.45009386540000001,
+            0.98132258650000004,
+            0.4743030667,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.45009386540000001,
+            0.98132258650000004,
+            0.4743030667,
+            1
+          ],
+          "extendedSRGB" : [
+            0.45009386539459229,
+            0.98132258653640747,
+            0.47430306673049927,
+            1
+          ],
+          "name" : "Flora",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.45085787770000002,
+            0.98829740290000001,
+            0.83763033149999999,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.45085787770000002,
+            0.98829740290000001,
+            0.83763033149999999,
+            1
+          ],
+          "extendedSRGB" : [
+            0.45085787773132324,
+            0.98829740285873413,
+            0.83763033151626587,
+            1
+          ],
+          "name" : "Spindrift",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.45138680930000002,
+            0.99309605359999997,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.45138680930000002,
+            0.99309605359999997,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.45138680934906006,
+            0.99309611320495605,
+            1,
+            1
+          ],
+          "name" : "Ice",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.46202266219999999,
+            0.83828371759999998,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.46202266219999999,
+            0.83828371759999998,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.46202266216278076,
+            0.8382837176322937,
+            1,
+            1
+          ],
+          "name" : "Sky",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.47684186699999997,
+            0.50480759139999998,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.47684186699999997,
+            0.50480759139999998,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.47684186697006226,
+            0.50480759143829346,
+            1,
+            1
+          ],
+          "name" : "Orchid",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            0.84465640779999995,
+            0.51457053419999998,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            0.84465640779999995,
+            0.51457053419999998,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.84465634822845459,
+            0.51457053422927856,
+            1,
+            1
+          ],
+          "name" : "Lavender",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.52120530610000004,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            1,
+            0.52120530610000004,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            1,
+            0.52120530605316162,
+            1,
+            1
+          ],
+          "name" : "Bubblegum",
+          "space" : "sRGB IEC61966-2.1"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.5409764051,
+            0.84731429820000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceSRGB",
+          "colorSpaceName" : "NSCustomColorSpace",
+          "components" : [
+            1,
+            0.5409764051,
+            0.84731429820000004,
+            1
+          ],
+          "extendedSRGB" : [
+            1,
+            0.54097640514373779,
+            0.84731435775756836,
+            1
+          ],
+          "name" : "Carnation",
+          "space" : "sRGB IEC61966-2.1"
+        }
+      ],
+      "name" : "Crayons"
+    },
+    {
+      "colors" : [
+        {
+          "cgComponents" : [
+            1,
+            1,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            1,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0000001192092896,
+            0.99999994039535522,
+            1.0000001192092896,
+            1
+          ],
+          "name" : "FFFFFF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0.83742141723632812,
+            0.83742135763168335,
+            0.83742135763168335,
+            1
+          ],
+          "name" : "CCCCCC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0.59999999999999998,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0.59999999999999998,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.66422688961029053,
+            0.66422688961029053,
+            0.66422688961029053,
+            1
+          ],
+          "name" : "999999",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0.40000000000000002,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0.40000000000000002,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.47563701868057251,
+            0.47563695907592773,
+            0.47563695907592773,
+            1
+          ],
+          "name" : "666666",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0.20000000000000001,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0.20000000000000001,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.26051861047744751,
+            0.26051861047744751,
+            0.26051861047744751,
+            1
+          ],
+          "name" : "333333",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0,
+            0,
+            0,
+            1
+          ],
+          "name" : "000000",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.80000000000000004,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0.80000000000000004,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0036616325378418,
+            0.84097743034362793,
+            0.8370974063873291,
+            1
+          ],
+          "name" : "FFCCCC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0.59999999999999998,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0.59999999999999998,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.84120386838912964,
+            0.6681559681892395,
+            0.66386854648590088,
+            1
+          ],
+          "name" : "CC9999",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0.40000000000000002,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0.40000000000000002,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.66813051700592041,
+            0.48021930456161499,
+            0.47521799802780151,
+            1
+          ],
+          "name" : "996666",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0.20000000000000001,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0.20000000000000001,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.47959452867507935,
+            0.26676282286643982,
+            0.25994282960891724,
+            1
+          ],
+          "name" : "663333",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.26381295919418335,
+            0.013833604753017426,
+            -0.0012564770877361298,
+            1
+          ],
+          "name" : "330000",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.59999999999999998,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0.59999999999999998,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0066424608230591,
+            0.67292070388793945,
+            0.66342997550964355,
+            1
+          ],
+          "name" : "FF9999",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0.40000000000000002,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0.40000000000000002,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.84407716989517212,
+            0.48613846302032471,
+            0.47466868162155151,
+            1
+          ],
+          "name" : "CC6666",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0.20000000000000001,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0.20000000000000001,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.84597581624984741,
+            0.28728771209716797,
+            0.257926344871521,
+            1
+          ],
+          "name" : "CC3333",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0.20000000000000001,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0.20000000000000001,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.67070341110229492,
+            0.27586877346038818,
+            0.259071946144104,
+            1
+          ],
+          "name" : "993333",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.48117733001708984,
+            0.047657020390033722,
+            -0.004375307820737362,
+            1
+          ],
+          "name" : "660000",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.40000000000000002,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0.40000000000000002,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0089107751846313,
+            0.4932563304901123,
+            0.47399574518203735,
+            1
+          ],
+          "name" : "FF6666",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.20000000000000001,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0.20000000000000001,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0104115009307861,
+            0.3005654513835907,
+            0.25651726126670837,
+            1
+          ],
+          "name" : "FF3333",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0110152959823608,
+            0.14910030364990234,
+            -0.022766724228858948,
+            1
+          ],
+          "name" : "FF0000",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.84673911333084106,
+            0.11764784902334213,
+            -0.015235705301165581,
+            1
+          ],
+          "name" : "CC0000",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.67173629999160767,
+            0.084141634404659271,
+            -0.009077637456357479,
+            1
+          ],
+          "name" : "990000",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.59999999999999998,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0.59999999999999998,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0065251588821411,
+            0.66792190074920654,
+            0.47365319728851318,
+            1
+          ],
+          "name" : "FF9966",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.40000000000000002,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0.40000000000000002,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0088331699371338,
+            0.48831838369369507,
+            0.25604015588760376,
+            1
+          ],
+          "name" : "FF6633",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.20000000000000001,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0.20000000000000001,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0103803873062134,
+            0.2969147264957428,
+            -0.023789580911397934,
+            1
+          ],
+          "name" : "FF3300",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0.20000000000000001,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0.20000000000000001,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.8459363579750061,
+            0.28343451023101807,
+            -0.016258561983704567,
+            1
+          ],
+          "name" : "CC3300",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0.20000000000000001,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0.20000000000000001,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.67065000534057617,
+            0.2718254029750824,
+            -0.010100494138896465,
+            1
+          ],
+          "name" : "993300",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.80000000000000004,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0.80000000000000004,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0035073757171631,
+            0.83608776330947876,
+            0.66313779354095459,
+            1
+          ],
+          "name" : "FFCC99",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0.59999999999999998,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0.59999999999999998,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.84105509519577026,
+            0.66311055421829224,
+            0.4743267297744751,
+            1
+          ],
+          "name" : "CC9966",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0.40000000000000002,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0.40000000000000002,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.84397894144058228,
+            0.48110836744308472,
+            0.25745224952697754,
+            1
+          ],
+          "name" : "CC6633",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0.40000000000000002,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0.40000000000000002,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.66799730062484741,
+            0.47511029243469238,
+            0.25860032439231873,
+            1
+          ],
+          "name" : "996633",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0.20000000000000001,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0.20000000000000001,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.47951257228851318,
+            0.26255583763122559,
+            -0.005398165434598923,
+            1
+          ],
+          "name" : "663300",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.59999999999999998,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0.59999999999999998,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0064473152160645,
+            0.66457951068878174,
+            0.25531890988349915,
+            1
+          ],
+          "name" : "FF9933",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.40000000000000002,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0.40000000000000002,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0088019371032715,
+            0.48631119728088379,
+            -0.026328518986701965,
+            1
+          ],
+          "name" : "FF6600",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.59999999999999998,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0.59999999999999998,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0064159631729126,
+            0.66322678327560425,
+            -0.030156536027789116,
+            1
+          ],
+          "name" : "FF9900",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0.40000000000000002,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0.40000000000000002,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.84393936395645142,
+            0.47906315326690674,
+            -0.018797501921653748,
+            1
+          ],
+          "name" : "CC6600",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0.59999999999999998,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0.59999999999999998,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.84095644950866699,
+            0.65973663330078125,
+            0.25673562288284302,
+            1
+          ],
+          "name" : "CC9933",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.80000000000000004,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0.80000000000000004,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0033894777297974,
+            0.83232861757278442,
+            0.47320425510406494,
+            1
+          ],
+          "name" : "FFCC66",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.80000000000000004,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0.80000000000000004,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0033112764358521,
+            0.82982295751571655,
+            0.25437092781066895,
+            1
+          ],
+          "name" : "FFCC33",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.80000000000000004,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0.80000000000000004,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0032799243927002,
+            0.82881075143814087,
+            -0.03516962006688118,
+            1
+          ],
+          "name" : "FFCC00",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0.59999999999999998,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0.59999999999999998,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.84091669321060181,
+            0.65837103128433228,
+            -0.022625517100095749,
+            1
+          ],
+          "name" : "CC9900",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0.40000000000000002,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0.40000000000000002,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.66794359683990479,
+            0.47303241491317749,
+            -0.012639434076845646,
+            1
+          ],
+          "name" : "996600",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            1,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            1,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0.99981051683425903,
+            0.99524599313735962,
+            0.83683353662490845,
+            1
+          ],
+          "name" : "FFFFCC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.83722543716430664,
+            0.83250433206558228,
+            0.66357666254043579,
+            1
+          ],
+          "name" : "CCCC99",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0.59999999999999998,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0.59999999999999998,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.6640244722366333,
+            0.65914255380630493,
+            0.47487658262252808,
+            1
+          ],
+          "name" : "999966",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0.40000000000000002,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0.40000000000000002,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.47543144226074219,
+            0.47046530246734619,
+            0.25947308540344238,
+            1
+          ],
+          "name" : "666633",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0.20000000000000001,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0.20000000000000001,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.2603471577167511,
+            0.2561926543712616,
+            -0.002279334468767047,
+            1
+          ],
+          "name" : "333300",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            1,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            1,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.99965542554855347,
+            0.99133628606796265,
+            0.66278022527694702,
+            1
+          ],
+          "name" : "FFFF99",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.83707576990127563,
+            0.8287237286567688,
+            0.47387856245040894,
+            1
+          ],
+          "name" : "CCCC66",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.83697652816772461,
+            0.82620376348495483,
+            0.25579363107681274,
+            1
+          ],
+          "name" : "CCCC33",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0.59999999999999998,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0.59999999999999998,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.66389024257659912,
+            0.65574222803115845,
+            0.25788736343383789,
+            1
+          ],
+          "name" : "999933",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0.40000000000000002,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0.40000000000000002,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.47534865140914917,
+            0.46836155652999878,
+            -0.007937105372548103,
+            1
+          ],
+          "name" : "666600",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            1,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            1,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.99953705072402954,
+            0.98833686113357544,
+            0.47265434265136719,
+            1
+          ],
+          "name" : "FFFF66",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            1,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            1,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.99945849180221558,
+            0.98634093999862671,
+            0.25320589542388916,
+            1
+          ],
+          "name" : "FFFF33",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            1,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            1,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.99942678213119507,
+            0.98553520441055298,
+            -0.04128100723028183,
+            1
+          ],
+          "name" : "FFFF00",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0.80000000000000004,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0.80000000000000004,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.83693653345108032,
+            0.82518571615219116,
+            -0.027638603001832962,
+            1
+          ],
+          "name" : "CCCC00",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0.59999999999999998,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0.59999999999999998,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.66383606195449829,
+            0.65436583757400513,
+            -0.016467448323965073,
+            1
+          ],
+          "name" : "999900",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            1,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            1,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.83217525482177734,
+            0.98546606302261353,
+            0.47332966327667236,
+            1
+          ],
+          "name" : "CCFF66",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            1,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            1,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.83207529783248901,
+            0.98346227407455444,
+            0.25463610887527466,
+            1
+          ],
+          "name" : "CCFF33",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            1,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            1,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.8320348858833313,
+            0.98265355825424194,
+            -0.033769361674785614,
+            1
+          ],
+          "name" : "CCFF00",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0.80000000000000004,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0.80000000000000004,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.65840679407119751,
+            0.82220596075057983,
+            -0.021480534225702286,
+            1
+          ],
+          "name" : "99CC00",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0.59999999999999998,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0.59999999999999998,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.46898263692855835,
+            0.65128600597381592,
+            -0.011765120550990105,
+            1
+          ],
+          "name" : "669900",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            1,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            1,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.83232611417770386,
+            0.98847693204879761,
+            0.6632193922996521,
+            1
+          ],
+          "name" : "CCFF99",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0.80000000000000004,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0.80000000000000004,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.65859723091125488,
+            0.82576072216033936,
+            0.47442907094955444,
+            1
+          ],
+          "name" : "99CC66",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0.80000000000000004,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0.80000000000000004,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.65846151113510132,
+            0.82322889566421509,
+            0.25695019960403442,
+            1
+          ],
+          "name" : "99CC33",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0.59999999999999998,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0.59999999999999998,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.46906691789627075,
+            0.65267068147659302,
+            0.25876283645629883,
+            1
+          ],
+          "name" : "669933",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0.40000000000000002,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0.40000000000000002,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.2515052855014801,
+            0.46523112058639526,
+            -0.004818274173885584,
+            1
+          ],
+          "name" : "336600",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            1,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            1,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.65174281597137451,
+            0.98110014200210571,
+            0.25579875707626343,
+            1
+          ],
+          "name" : "99FF33",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            1,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            1,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.6516873836517334,
+            0.98028892278671265,
+            -0.027611294761300087,
+            1
+          ],
+          "name" : "99FF00",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            1,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            1,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.44980359077453613,
+            0.97847801446914673,
+            -0.022908966988325119,
+            1
+          ],
+          "name" : "66FF00",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0.80000000000000004,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0.80000000000000004,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.46047848463058472,
+            0.81992095708847046,
+            -0.016778204590082169,
+            1
+          ],
+          "name" : "66CC00",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0.80000000000000004,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0.80000000000000004,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.46056461334228516,
+            0.82094764709472656,
+            0.25782936811447144,
+            1
+          ],
+          "name" : "66CC33",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            1,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            1,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.65188032388687134,
+            0.98311036825180054,
+            0.47388094663619995,
+            1
+          ],
+          "name" : "99FF66",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            1,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            1,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.44989228248596191,
+            0.97929137945175171,
+            0.25668245553970337,
+            1
+          ],
+          "name" : "66FF33",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            1,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            1,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.1898740828037262,
+            0.97727459669113159,
+            -0.019790135324001312,
+            1
+          ],
+          "name" : "33FF00",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0.80000000000000004,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0.80000000000000004,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.21748921275138855,
+            0.81840085983276367,
+            -0.013659374788403511,
+            1
+          ],
+          "name" : "33CC00",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0.59999999999999998,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0.59999999999999998,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            0.23745596408843994,
+            0.64923286437988281,
+            -0.008646289817988873,
+            1
+          ],
+          "name" : "339900",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            1,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            1,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0.83252358436584473,
+            0.99240165948867798,
+            0.83715766668319702,
+            1
+          ],
+          "name" : "CCFFCC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0.80000000000000004,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0.80000000000000004,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.65880179405212402,
+            0.82955902814865112,
+            0.66393518447875977,
+            1
+          ],
+          "name" : "99CC99",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0.59999999999999998,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0.59999999999999998,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.46927589178085327,
+            0.65609163045883179,
+            0.47529596090316772,
+            1
+          ],
+          "name" : "669966",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0.40000000000000002,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0.40000000000000002,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.25168371200561523,
+            0.46735256910324097,
+            0.26005002856254578,
+            1
+          ],
+          "name" : "336633",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.20000000000000001,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0.20000000000000001,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.018927935510873795,
+            0.25357696413993835,
+            -0.0010228576138615608,
+            1
+          ],
+          "name" : "003300",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            1,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            1,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.65208762884140015,
+            0.98613077402114868,
+            0.66357821226119995,
+            1
+          ],
+          "name" : "99FF99",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0.80000000000000004,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0.80000000000000004,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.46077847480773926,
+            0.82348877191543579,
+            0.47484892606735229,
+            1
+          ],
+          "name" : "66CC66",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0.80000000000000004,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0.80000000000000004,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.21769952774047852,
+            0.81943005323410034,
+            0.25841057300567627,
+            1
+          ],
+          "name" : "33CC33",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0.59999999999999998,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0.59999999999999998,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.23764649033546448,
+            0.65062320232391357,
+            0.25934165716171265,
+            1
+          ],
+          "name" : "339933",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.40000000000000002,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0.40000000000000002,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.061983697116374969,
+            0.46396255493164062,
+            -0.0035617973189800978,
+            1
+          ],
+          "name" : "006600",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            1,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            1,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.45011252164840698,
+            0.98130637407302856,
+            0.47430139780044556,
+            1
+          ],
+          "name" : "66FF66",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            1,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            1,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.19011828303337097,
+            0.97808927297592163,
+            0.25726664066314697,
+            1
+          ],
+          "name" : "33FF33",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            1,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            1,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.17758423089981079,
+            0.97678917646408081,
+            -0.018533658236265182,
+            1
+          ],
+          "name" : "00FF00",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.80000000000000004,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0.80000000000000004,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.14174234867095947,
+            0.81778740882873535,
+            -0.012402898631989956,
+            1
+          ],
+          "name" : "00CC00",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.59999999999999998,
+            0,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0.59999999999999998,
+            0,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.10356005281209946,
+            0.6484033465385437,
+            -0.007389812730252743,
+            1
+          ],
+          "name" : "009900",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            1,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            1,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.45044422149658203,
+            0.98433417081832886,
+            0.6638520359992981,
+            1
+          ],
+          "name" : "66FF99",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            1,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            1,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.1907230019569397,
+            0.98010760545730591,
+            0.47457998991012573,
+            1
+          ],
+          "name" : "33FF66",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            1,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            1,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.17732137441635132,
+            0.97760432958602905,
+            0.25750157237052917,
+            1
+          ],
+          "name" : "00FF33",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.80000000000000004,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0.80000000000000004,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.14140993356704712,
+            0.81881755590438843,
+            0.25864428281784058,
+            1
+          ],
+          "name" : "00CC33",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.59999999999999998,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0.59999999999999998,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.10311009734869003,
+            0.6497960090637207,
+            0.25957438349723816,
+            1
+          ],
+          "name" : "009933",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            1,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            1,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0.65235894918441772,
+            0.99006778001785278,
+            0.83742254972457886,
+            1
+          ],
+          "name" : "99FFCC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0.80000000000000004,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0.80000000000000004,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.46110063791275024,
+            0.82730072736740112,
+            0.66420882940292358,
+            1
+          ],
+          "name" : "66CC99",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0.80000000000000004,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0.80000000000000004,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.21822056174278259,
+            0.82197731733322144,
+            0.47512710094451904,
+            1
+          ],
+          "name" : "33CC66",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0.59999999999999998,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0.59999999999999998,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.23811861872673035,
+            0.65405797958374023,
+            0.47557377815246582,
+            1
+          ],
+          "name" : "339966",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.40000000000000002,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0.40000000000000002,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.061293460428714752,
+            0.46609115600585938,
+            0.26028203964233398,
+            1
+          ],
+          "name" : "006633",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            1,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            1,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.19163081049919128,
+            0.98314028978347778,
+            0.66403359174728394,
+            1
+          ],
+          "name" : "33FF99",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            1,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            1,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.17666712403297424,
+            0.97962397336959839,
+            0.47469216585159302,
+            1
+          ],
+          "name" : "00FF66",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            1,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            1,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.17567574977874756,
+            0.98265868425369263,
+            0.66410666704177856,
+            1
+          ],
+          "name" : "00FF99",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.80000000000000004,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0.80000000000000004,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.14058145880699158,
+            0.82136732339859009,
+            0.475239098072052,
+            1
+          ],
+          "name" : "00CC66",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0.80000000000000004,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0.80000000000000004,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.21900352835655212,
+            0.82579845190048218,
+            0.6643902063369751,
+            1
+          ],
+          "name" : "33CC99",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            1,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            1,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0.45087820291519165,
+            0.98828071355819702,
+            0.83762472867965698,
+            1
+          ],
+          "name" : "66FFCC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            1,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            1,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0.19281259179115295,
+            0.98709315061569214,
+            0.83775883913040161,
+            1
+          ],
+          "name" : "33FFCC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            1,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            1,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.17436844110488892,
+            0.98661404848098755,
+            0.83781284093856812,
+            1
+          ],
+          "name" : "00FFCC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.80000000000000004,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0.80000000000000004,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.13932305574417114,
+            0.82519209384918213,
+            0.66446328163146973,
+            1
+          ],
+          "name" : "00CC99",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.59999999999999998,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0.59999999999999998,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.10198537260293961,
+            0.65323638916015625,
+            0.475685715675354,
+            1
+          ],
+          "name" : "009966",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            1,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            1,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.83276498317718506,
+            0.99717360734939575,
+            1.0002561807632446,
+            1
+          ],
+          "name" : "CCFFFF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0.80000000000000004,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0.80000000000000004,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0.65906959772109985,
+            0.83449888229370117,
+            0.83768612146377563,
+            1
+          ],
+          "name" : "99CCCC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0.59999999999999998,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0.59999999999999998,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.46959078311920166,
+            0.66120630502700806,
+            0.66450035572052002,
+            1
+          ],
+          "name" : "669999",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0.40000000000000002,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0.40000000000000002,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.25212588906288147,
+            0.47256684303283691,
+            0.4759145975112915,
+            1
+          ],
+          "name" : "336666",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.20000000000000001,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0.20000000000000001,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.01799844391644001,
+            0.2579534649848938,
+            0.26075014472007751,
+            1
+          ],
+          "name" : "003333",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            1,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            1,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.652690589427948,
+            0.9948546290397644,
+            1.0004657506942749,
+            1
+          ],
+          "name" : "99FFFF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0.80000000000000004,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0.80000000000000004,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0.46152216196060181,
+            0.83225816488265991,
+            0.83788830041885376,
+            1
+          ],
+          "name" : "66CCCC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0.80000000000000004,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0.80000000000000004,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0.22002419829368591,
+            0.83076763153076172,
+            0.83802229166030884,
+            1
+          ],
+          "name" : "33CCCC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0.59999999999999998,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0.59999999999999998,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.23882842063903809,
+            0.65919303894042969,
+            0.66468167304992676,
+            1
+          ],
+          "name" : "339999",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.40000000000000002,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0.40000000000000002,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.059554852545261383,
+            0.47132295370101929,
+            0.47602641582489014,
+            1
+          ],
+          "name" : "006666",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            1,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            1,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.4514082670211792,
+            0.99307900667190552,
+            1.0006254911422729,
+            1
+          ],
+          "name" : "66FFFF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            1,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            1,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.19424721598625183,
+            0.99189895391464233,
+            1.0007315874099731,
+            1
+          ],
+          "name" : "33FFFF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            1,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            1,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.17275530099868774,
+            0.99142295122146606,
+            1.0007742643356323,
+            1
+          ],
+          "name" : "00FFFF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.80000000000000004,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0.80000000000000004,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.13765755295753479,
+            0.83016616106033325,
+            0.83807629346847534,
+            1
+          ],
+          "name" : "00CCCC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.59999999999999998,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0.59999999999999998,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.10026801377534866,
+            0.65837967395782471,
+            0.66475468873977661,
+            1
+          ],
+          "name" : "009999",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0.80000000000000004,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0.80000000000000004,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.46203696727752686,
+            0.8382686972618103,
+            1.0008338689804077,
+            1
+          ],
+          "name" : "66CCFF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0.80000000000000004,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0.80000000000000004,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.22126522660255432,
+            0.83679217100143433,
+            1.0009399652481079,
+            1
+          ],
+          "name" : "33CCFF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.80000000000000004,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0.80000000000000004,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.13559293746948242,
+            0.83619636297225952,
+            1.0009826421737671,
+            1
+          ],
+          "name" : "00CCFF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.59999999999999998,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0.59999999999999998,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.097977928817272186,
+            0.66503769159317017,
+            0.83829158544540405,
+            1
+          ],
+          "name" : "0099CC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.40000000000000002,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0.40000000000000002,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.056861467659473419,
+            0.479076087474823,
+            0.66497707366943359,
+            1
+          ],
+          "name" : "006699",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0.80000000000000004,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0.80000000000000004,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.65939682722091675,
+            0.84048837423324585,
+            1.0006741285324097,
+            1
+          ],
+          "name" : "99CCFF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0.59999999999999998,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0.59999999999999998,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0.47000277042388916,
+            0.6678280234336853,
+            0.83810371160507202,
+            1
+          ],
+          "name" : "6699CC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0.59999999999999998,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0.59999999999999998,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0.23975434899330139,
+            0.6658405065536499,
+            0.8382377028465271,
+            1
+          ],
+          "name" : "3399CC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0.40000000000000002,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0.40000000000000002,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.2527908980846405,
+            0.48029488325119019,
+            0.66490411758422852,
+            1
+          ],
+          "name" : "336699",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.20000000000000001,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0.20000000000000001,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.015691259875893593,
+            0.2684626579284668,
+            0.47625213861465454,
+            1
+          ],
+          "name" : "003366",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0.59999999999999998,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0.59999999999999998,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.24088120460510254,
+            0.67385530471801758,
+            1.0011101961135864,
+            1
+          ],
+          "name" : "3399FF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.59999999999999998,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0.59999999999999998,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.095110319554805756,
+            0.67306482791900635,
+            1.0011529922485352,
+            1
+          ],
+          "name" : "0099FF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.40000000000000002,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0.40000000000000002,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.04844975471496582,
+            0.50079602003097534,
+            1.0012829303741455,
+            1
+          ],
+          "name" : "0066FF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.40000000000000002,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0.40000000000000002,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.053190641105175018,
+            0.48899722099304199,
+            0.83845603466033936,
+            1
+          ],
+          "name" : "0066CC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0.40000000000000002,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0.40000000000000002,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0.25365877151489258,
+            0.49018508195877075,
+            0.83840209245681763,
+            1
+          ],
+          "name" : "3366CC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0.59999999999999998,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0.59999999999999998,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.47050601243972778,
+            0.67581230401992798,
+            1.0010042190551758,
+            1
+          ],
+          "name" : "6699FF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0.40000000000000002,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0.40000000000000002,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.25471553206443787,
+            0.50194883346557617,
+            1.0012403726577759,
+            1
+          ],
+          "name" : "3366FF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.20000000000000001,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0.20000000000000001,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.0020860363729298115,
+            0.32255977392196655,
+            1.0013692378997803,
+            1
+          ],
+          "name" : "0033FF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.20000000000000001,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0.20000000000000001,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.007657179143279791,
+            0.30179247260093689,
+            0.83856499195098877,
+            1
+          ],
+          "name" : "0033CC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0.20000000000000001,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0.20000000000000001,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            -0.012212667614221573,
+            0.28345906734466553,
+            0.66512459516525269,
+            1
+          ],
+          "name" : "003399",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.83766096830368042,
+            0.84338361024856567,
+            1.0004647970199585,
+            1
+          ],
+          "name" : "CCCCFF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0.59999999999999998,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0.59999999999999998,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0.66449183225631714,
+            0.67081010341644287,
+            0.83790165185928345,
+            1
+          ],
+          "name" : "9999CC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0.40000000000000002,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0.40000000000000002,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.47594660520553589,
+            0.48330354690551758,
+            0.66472291946411133,
+            1
+          ],
+          "name" : "666699",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0.20000000000000001,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0.20000000000000001,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.26094359159469604,
+            0.27091291546821594,
+            0.47614043951034546,
+            1
+          ],
+          "name" : "333366",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.0009294907213188708,
+            0.023238366469740868,
+            0.26093846559524536,
+            1
+          ],
+          "name" : "000033",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0.59999999999999998,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0.59999999999999998,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.66481566429138184,
+            0.67874914407730103,
+            1.0008444786071777,
+            1
+          ],
+          "name" : "9999FF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0.40000000000000002,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0.40000000000000002,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0.47635167837142944,
+            0.4931180477142334,
+            0.83826810121536255,
+            1
+          ],
+          "name" : "6666CC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0.20000000000000001,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0.20000000000000001,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0.2624172568321228,
+            0.30393075942993164,
+            0.83851104974746704,
+            1
+          ],
+          "name" : "3333CC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0.20000000000000001,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0.20000000000000001,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.26158285140991211,
+            0.28575998544692993,
+            0.66505157947540283,
+            1
+          ],
+          "name" : "333399",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.003236675402149558,
+            0.072424031794071198,
+            0.47634303569793701,
+            1
+          ],
+          "name" : "000066",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0.40000000000000002,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0.40000000000000002,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.47684657573699951,
+            0.50479596853256226,
+            1.0011343955993652,
+            1
+          ],
+          "name" : "6666FF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0.20000000000000001,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0.20000000000000001,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.26343357563018799,
+            0.32453626394271851,
+            1.0013265609741211,
+            1
+          ],
+          "name" : "3333FF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.01684189960360527,
+            0.19834145903587341,
+            1.0014039278030396,
+            1
+          ],
+          "name" : "0000FF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0.011270755901932716,
+            0.15930077433586121,
+            0.83860892057418823,
+            1
+          ],
+          "name" : "0000CC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0,
+            0,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0,
+            0,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.006715267896652222,
+            0.11771088093519211,
+            0.66518396139144897,
+            1
+          ],
+          "name" : "000099",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0.40000000000000002,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0.40000000000000002,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.66891539096832275,
+            0.50905072689056396,
+            1.0009746551513672,
+            1
+          ],
+          "name" : "9966FF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0.20000000000000001,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0.20000000000000001,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.48099422454833984,
+            0.32938116788864136,
+            1.0012205839157104,
+            1
+          ],
+          "name" : "6633FF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.26685300469398499,
+            0.20177677273750305,
+            1.0013612508773804,
+            1
+          ],
+          "name" : "3300FF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0.26585182547569275,
+            0.16362321376800537,
+            0.83855491876602173,
+            1
+          ],
+          "name" : "3300CC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.26502993702888489,
+            0.12350379675626755,
+            0.6651110053062439,
+            1
+          ],
+          "name" : "330099",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0.59999999999999998,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0.59999999999999998,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.84163665771484375,
+            0.68257039785385132,
+            1.0006352663040161,
+            1
+          ],
+          "name" : "CC99FF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0.40000000000000002,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0.40000000000000002,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0.6685941219329834,
+            0.49749904870986938,
+            0.83806616067886353,
+            1
+          ],
+          "name" : "9966CC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0.20000000000000001,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0.20000000000000001,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0.48050475120544434,
+            0.30916282534599304,
+            0.83837717771530151,
+            1
+          ],
+          "name" : "6633CC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0.20000000000000001,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0.20000000000000001,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.48010402917861938,
+            0.29137927293777466,
+            0.66487044095993042,
+            1
+          ],
+          "name" : "663399",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.26440030336380005,
+            0.0810847207903862,
+            0.47623139619827271,
+            1
+          ],
+          "name" : "330066",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0.20000000000000001,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0.20000000000000001,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.67161673307418823,
+            0.33652821183204651,
+            1.0010608434677124,
+            1
+          ],
+          "name" : "9933FF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.48265254497528076,
+            0.21003741025924683,
+            1.0012552738189697,
+            1
+          ],
+          "name" : "6600FF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.67270106077194214,
+            0.22185084223747253,
+            1.0010956525802612,
+            1
+          ],
+          "name" : "9900FF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0.48216521739959717,
+            0.17386627197265625,
+            0.8384210467338562,
+            1
+          ],
+          "name" : "6600CC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0.20000000000000001,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0.20000000000000001,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0.67129713296890259,
+            0.3168579638004303,
+            0.83817523717880249,
+            1
+          ],
+          "name" : "9933CC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0.40000000000000002,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0.40000000000000002,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.84465593099594116,
+            0.51455569267272949,
+            1.000765323638916,
+            1
+          ],
+          "name" : "CC66FF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0.20000000000000001,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0.20000000000000001,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.84665077924728394,
+            0.34562033414840698,
+            1.0008516311645508,
+            1
+          ],
+          "name" : "CC33FF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            0.84745258092880249,
+            0.23632833361625671,
+            1.0008863210678101,
+            1
+          ],
+          "name" : "CC00FF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0.67238205671310425,
+            0.18819579482078552,
+            0.83821910619735718,
+            1
+          ],
+          "name" : "9900CC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.4817662239074707,
+            0.13685214519500732,
+            0.66492986679077148,
+            1
+          ],
+          "name" : "660099",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.80000000000000004,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0.80000000000000004,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0038502216339111,
+            0.84690678119659424,
+            1.0002086162567139,
+            1
+          ],
+          "name" : "FFCCFF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0.59999999999999998,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0.59999999999999998,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0.84139859676361084,
+            0.6746896505355835,
+            0.83763700723648071,
+            1
+          ],
+          "name" : "CC99CC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0.40000000000000002,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0.40000000000000002,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.66833126544952393,
+            0.48779571056365967,
+            0.66444951295852661,
+            1
+          ],
+          "name" : "996699",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0.20000000000000001,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0.20000000000000001,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.47979778051376343,
+            0.27688619494438171,
+            0.47586297988891602,
+            1
+          ],
+          "name" : "663366",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.20000000000000001,
+            0,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.20000000000000001,
+            0,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.26398175954818726,
+            0.037071969360113144,
+            0.26070711016654968,
+            1
+          ],
+          "name" : "330033",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.59999999999999998,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0.59999999999999998,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0069838762283325,
+            0.68720632791519165,
+            1.0003790855407715,
+            1
+          ],
+          "name" : "FF99FF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0.40000000000000002,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0.40000000000000002,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0.84441906213760376,
+            0.50316387414932251,
+            0.83780151605606079,
+            1
+          ],
+          "name" : "CC66CC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0.20000000000000001,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0.20000000000000001,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0.84641450643539429,
+            0.32661014795303345,
+            0.83791059255599976,
+            1
+          ],
+          "name" : "CC33CC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0.20000000000000001,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0.20000000000000001,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.67103564739227295,
+            0.29961797595024109,
+            0.66459715366363525,
+            1
+          ],
+          "name" : "993399",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.4814612865447998,
+            0.099798925220966339,
+            0.47595399618148804,
+            1
+          ],
+          "name" : "660066",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.40000000000000002,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0.40000000000000002,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0093681812286377,
+            0.52118831872940063,
+            1.0005092620849609,
+            1
+          ],
+          "name" : "FF66FF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.20000000000000001,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0.20000000000000001,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0109453201293945,
+            0.35636115074157715,
+            1.0005955696105957,
+            1
+          ],
+          "name" : "FF33FF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0,
+            1,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0,
+            1,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0115798711776733,
+            0.25276762247085571,
+            1.0006303787231445,
+            1
+          ],
+          "name" : "FF00FF",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            0.84721672534942627,
+            0.20533972978591919,
+            0.83795458078384399,
+            1
+          ],
+          "name" : "CC00CC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.67212116718292236,
+            0.15481492877006531,
+            0.66465657949447632,
+            1
+          ],
+          "name" : "990099",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.40000000000000002,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0.40000000000000002,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0091809034347534,
+            0.50998401641845703,
+            0.83747774362564087,
+            1
+          ],
+          "name" : "FF66CC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.20000000000000001,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0.20000000000000001,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0107585191726685,
+            0.33808165788650513,
+            0.83758687973022461,
+            1
+          ],
+          "name" : "FF33CC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0113931894302368,
+            0.22436538338661194,
+            0.83763092756271362,
+            1
+          ],
+          "name" : "FF00CC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.84702372550964355,
+            0.1754993200302124,
+            0.66429859399795532,
+            1
+          ],
+          "name" : "CC0099",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.67192184925079346,
+            0.12315165251493454,
+            0.47553539276123047,
+            1
+          ],
+          "name" : "990066",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.59999999999999998,
+            0.80000000000000004,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0.59999999999999998,
+            0.80000000000000004,
+            1
+          ],
+          "extendedSRGB" : [
+            1.00679612159729,
+            0.67939531803131104,
+            0.83731311559677124,
+            1
+          ],
+          "name" : "FF99CC",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0.40000000000000002,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0.40000000000000002,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.84422522783279419,
+            0.49360096454620361,
+            0.66409134864807129,
+            1
+          ],
+          "name" : "CC6699",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0.20000000000000001,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0.20000000000000001,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            0.84622126817703247,
+            0.31001794338226318,
+            0.66423904895782471,
+            1
+          ],
+          "name" : "CC3399",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0.20000000000000001,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0.20000000000000001,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.67083591222763062,
+            0.28561770915985107,
+            0.4754442572593689,
+            1
+          ],
+          "name" : "993366",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.40000000000000002,
+            0,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.40000000000000002,
+            0,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.48125892877578735,
+            0.065955460071563721,
+            0.2601318359375,
+            1
+          ],
+          "name" : "660033",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.20000000000000001,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0.20000000000000001,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0106056928634644,
+            0.32219818234443665,
+            0.66380077600479126,
+            1
+          ],
+          "name" : "FF3399",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0112404823303223,
+            0.1977086067199707,
+            0.66386032104492188,
+            1
+          ],
+          "name" : "FF0099",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0111237764358521,
+            0.17433524131774902,
+            0.47431409358978271,
+            1
+          ],
+          "name" : "FF0066",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.84687632322311401,
+            0.14842203259468079,
+            0.4749864935874939,
+            1
+          ],
+          "name" : "CC0066",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0.20000000000000001,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0.20000000000000001,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            0.8460736870765686,
+            0.29659891128540039,
+            0.47489523887634277,
+            1
+          ],
+          "name" : "CC3366",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.40000000000000002,
+            0.59999999999999998,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0.40000000000000002,
+            0.59999999999999998,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0090277194976807,
+            0.50058567523956299,
+            0.66365295648574829,
+            1
+          ],
+          "name" : "FF6699",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0.20000000000000001,
+            0.40000000000000002,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0.20000000000000001,
+            0.40000000000000002,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0104889869689941,
+            0.30940783023834229,
+            0.47422271966934204,
+            1
+          ],
+          "name" : "FF3366",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            1,
+            0,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            1,
+            0,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            1.0110465288162231,
+            0.15678113698959351,
+            0.25670915842056274,
+            1
+          ],
+          "name" : "FF0033",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.80000000000000004,
+            0,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.80000000000000004,
+            0,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.84677857160568237,
+            0.12723803520202637,
+            0.25811702013015747,
+            1
+          ],
+          "name" : "CC0033",
+          "space" : "Generic RGB"
+        },
+        {
+          "cgComponents" : [
+            0.59999999999999998,
+            0,
+            0.20000000000000001,
+            1
+          ],
+          "cgSpaceName" : "kCGColorSpaceGenericRGB",
+          "colorSpaceName" : "NSCalibratedRGBColorSpace",
+          "components" : [
+            0.59999999999999998,
+            0,
+            0.20000000000000001,
+            1
+          ],
+          "extendedSRGB" : [
+            0.67178958654403687,
+            0.09680541604757309,
+            0.25926166772842407,
+            1
+          ],
+          "name" : "990033",
+          "space" : "Generic RGB"
+        }
+      ],
+      "name" : "Web Safe Colors"
+    }
+  ],
+  "source" : "NSColorList availableColorLists via AppKit public runtime API; observational color data, not copied Apple artwork"
+}

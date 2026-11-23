@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme LastUpgradeVersion="1400" version="1.3">
+<BuildAction parallelizeBuildables="NO" buildImplicitDependencies="YES"><BuildActionEntries><BuildActionEntry buildForTesting="NO" buildForRunning="YES" buildForProfiling="YES" buildForArchiving="YES" buildForAnalyzing="YES"><BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="91EF2E4800DB1DFAA7030D57" BuildableName="libUIColorPanelKit.a" BlueprintName="UIColorPanelKit" ReferencedContainer="container:UIColorPanelKit.xcodeproj"/></BuildActionEntry></BuildActionEntries></BuildAction>
+<AnalyzeAction buildConfiguration="Debug"/>
+<ArchiveAction buildConfiguration="Release" revealArchiveInOrganizer="YES"/>
+</Scheme>

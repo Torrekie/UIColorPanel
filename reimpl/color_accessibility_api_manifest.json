@@ -1,0 +1,640 @@
+{
+  "binary": "Accessibility15_5 and AXUIUtilities14_5 color naming subset",
+  "arch": "arm64 originals; Objective-C/UIKit public-API iOS12+ adaptation",
+  "platform": "darwin",
+  "authorization": "User-requested original color accessibility restoration; B1 authorizes exact original system language values in nested ColorAccessibility.bundle and public CoreGraphics conversion adaptation.",
+  "inputs": [
+    {
+      "binary": "Accessibility15_5",
+      "sha256": "7684afc23da1c55b6a5418c43683c5c3f16c327ffacb87d49755a5947df0687a",
+      "kernel": "9.5",
+      "path": ".build/ax-recovery/Accessibility15_5"
+    },
+    {
+      "binary": "AXUIUtilities14_5",
+      "sha256": "c06ece8a16e43ee9bf4ea87f08da895e5309bffded5036b1cfc8d125f77acf1a",
+      "kernel": "9.5",
+      "path": ".build/ax-recovery/AXUIUtilities14_5"
+    },
+    {
+      "binary": "Accessibility14_5",
+      "sha256": "b6943fabf68890086bcb7663f043be92b248abbfe19983267525b17f6f9430fb",
+      "kernel": "9.5",
+      "path": ".build/ax-recovery/Accessibility14_5",
+      "comparison": "brown cutoff luma<0.43f instead of15.5 luma<0.54f; imported _NXRGBToHSB instead of inlined min/max arithmetic"
+    },
+    {
+      "binary": "UIKitAX12",
+      "sha256": "3abea38725c178eb621956a2ac140231264a212d36d6e6733dfa511476503173",
+      "kernel": "9.5",
+      "path": ".build/ax-recovery/UIKitAX12",
+      "comparison": "UIColorAccessibility private _accessibilityColorDescription(0x7db11), _accessibilityColorDescriptionWithLuma(0x7db25), _accessibilityColorDescriptionWithOptions:(0x7db3c) cache imported AXColorStringForColor; not public API. This is not proof of selector absence in other images."
+    }
+  ],
+  "functions": [
+    {
+      "ea": "0x2094",
+      "end": "0x2a6c",
+      "ida_name": "_AXNameFromColor",
+      "chosen_name": "UIColorPickerAXNameFromColor",
+      "kind": "normal",
+      "binary": "Accessibility15_5",
+      "source_file": "Sources/RecoveredElements/UIColorPickerColorAccessibility.m",
+      "implemented": true,
+      "notes": [
+        "Exact15.5 classification, float-promoted thresholds and dictionary flow; private CGColorTransform imported dependency replaced inline by CGColorCreateCopyByMatchingToColorSpace."
+      ],
+      "prototype": "NSString *UIColorPickerAXNameFromColor(CGColorRef color)",
+      "evidence": {
+        "ida_kernel": "9.5",
+        "analysis": "Verified input SHA256; Hex-Rays pseudocode, raw constant/math disassembly and referenced CFString/native localization tables."
+      }
+    },
+    {
+      "ea": "0x2a6c",
+      "end": "0x2bcc",
+      "ida_name": "_AXColorDescriptionFromAttributeDescriptions",
+      "chosen_name": "UIColorPickerAXColorDescriptionFromAttributeDescriptions",
+      "kind": "normal",
+      "binary": "Accessibility15_5",
+      "source_file": "Sources/RecoveredElements/UIColorPickerColorAccessibility.m",
+      "implemented": true,
+      "notes": [],
+      "prototype": "static NSString *UIColorPickerAXColorDescriptionFromAttributeDescriptions(NSString *lightness, NSString *saturation, NSString *hue)",
+      "evidence": {
+        "ida_kernel": "9.5",
+        "analysis": "Verified input SHA256; Hex-Rays pseudocode, raw constant/math disassembly and referenced CFString/native localization tables."
+      }
+    },
+    {
+      "ea": "0x2bcc",
+      "end": "0x2c24",
+      "ida_name": "_AXColorGetLightnessDescription",
+      "chosen_name": "UIColorPickerAXColorGetLightnessDescription",
+      "kind": "normal",
+      "binary": "Accessibility15_5",
+      "source_file": "Sources/RecoveredElements/UIColorPickerColorAccessibility.m",
+      "implemented": true,
+      "notes": [],
+      "prototype": "static NSString *UIColorPickerAXColorGetLightnessDescription(double luma)",
+      "evidence": {
+        "ida_kernel": "9.5",
+        "analysis": "Verified input SHA256; Hex-Rays pseudocode, raw constant/math disassembly and referenced CFString/native localization tables."
+      }
+    },
+    {
+      "ea": "0x2c24",
+      "end": "0x2c4c",
+      "ida_name": "____AXSRGBColorSpace_block_invoke",
+      "chosen_name": "block literal in UIColorPickerAXNameFromColor",
+      "kind": "block_invoke",
+      "binary": "Accessibility15_5",
+      "source_file": "Sources/RecoveredElements/UIColorPickerColorAccessibility.m",
+      "implemented": true,
+      "notes": [],
+      "prototype": "void (^)(void)",
+      "evidence": {
+        "ida_kernel": "9.5",
+        "analysis": "Verified input SHA256; Hex-Rays pseudocode, raw constant/math disassembly and referenced CFString/native localization tables."
+      }
+    },
+    {
+      "ea": "0x2c4c",
+      "end": "0x2c74",
+      "ida_name": "____AXExtendedSRGBColorSpace_block_invoke",
+      "chosen_name": "block literal in UIColorPickerAXNameFromColor",
+      "kind": "block_invoke",
+      "binary": "Accessibility15_5",
+      "source_file": "Sources/RecoveredElements/UIColorPickerColorAccessibility.m",
+      "implemented": true,
+      "notes": [],
+      "prototype": "void (^)(void)",
+      "evidence": {
+        "ida_kernel": "9.5",
+        "analysis": "Verified input SHA256; Hex-Rays pseudocode, raw constant/math disassembly and referenced CFString/native localization tables."
+      }
+    },
+    {
+      "ea": "0x2c74",
+      "end": "0x2cc4",
+      "ida_name": "___AXRGBColorTransform_block_invoke",
+      "chosen_name": "not emitted: private transform replaced by public color matching",
+      "kind": "block_invoke",
+      "binary": "Accessibility15_5",
+      "source_file": "Sources/RecoveredElements/UIColorPickerColorAccessibility.m",
+      "implemented": false,
+      "notes": [
+        "Public adapter has no reusable private CGColorTransform object; the source deliberately contains no substitute helper function."
+      ],
+      "prototype": "void (^)(void)",
+      "evidence": {
+        "ida_kernel": "9.5",
+        "analysis": "Verified input SHA256; Hex-Rays pseudocode, raw constant/math disassembly and referenced CFString/native localization tables."
+      }
+    },
+    {
+      "ea": "0xa62c",
+      "end": "0xa6cc",
+      "ida_name": "_AXLocalizedString",
+      "chosen_name": "UIColorPickerAXLocalizedString",
+      "kind": "normal",
+      "binary": "Accessibility15_5",
+      "source_file": "Sources/RecoveredElements/UIColorPickerColorAccessibility.m",
+      "implemented": true,
+      "notes": [
+        "Only bundle owner is adapted to the distributed nested bundle. Native table Accessibility and missing-key return behavior retained."
+      ],
+      "prototype": "static NSString *UIColorPickerAXLocalizedString(NSString *key)",
+      "evidence": {
+        "ida_kernel": "9.5",
+        "analysis": "Verified input SHA256; Hex-Rays pseudocode, raw constant/math disassembly and referenced CFString/native localization tables."
+      }
+    },
+    {
+      "ea": "0xf7ec",
+      "end": "0xf864",
+      "ida_name": "_AXNameFromColor.cold.1",
+      "chosen_name": "os_log_error macro within UIColorPickerAXNameFromColor",
+      "kind": "runtime_artifact",
+      "binary": "Accessibility15_5",
+      "source_file": "Sources/RecoveredElements/UIColorPickerColorAccessibility.m",
+      "implemented": true,
+      "notes": [
+        "Native private AXLogCommon category replaced by public OS_LOG_DEFAULT; native error format retained."
+      ],
+      "prototype": "compiler outlined os_log_error macro",
+      "evidence": {
+        "ida_kernel": "9.5",
+        "analysis": "Verified input SHA256; Hex-Rays pseudocode, raw constant/math disassembly and referenced CFString/native localization tables."
+      }
+    },
+    {
+      "ea": "0xb5b4",
+      "end": "0xb710",
+      "ida_name": "AXColorStringForColor",
+      "chosen_name": "UIColorPickerAXColorStringForColor",
+      "kind": "normal",
+      "binary": "AXUIUtilities14_5",
+      "source_file": "Sources/RecoveredElements/UIColorPickerColorAccessibility.m",
+      "implemented": true,
+      "notes": [
+        "iOS14+ public UIColor.accessibilityName replaces imported AXNameFromColor; iOS12–13 recovered15.5 algorithm. Bit0 appends rounded localized luma with one space and no percent sign."
+      ],
+      "prototype": "NSString *UIColorPickerAXColorStringForColor(UIColor *color, unsigned char options)",
+      "evidence": {
+        "ida_kernel": "9.5",
+        "analysis": "Verified input SHA256; Hex-Rays pseudocode, raw constant/math disassembly and referenced CFString/native localization tables."
+      }
+    },
+    {
+      "ea": "0xb710",
+      "end": "0xb758",
+      "ida_name": "__AXColorStringForColor_block_invoke",
+      "chosen_name": "block literal in UIColorPickerAXColorStringForColor",
+      "kind": "block_invoke",
+      "binary": "AXUIUtilities14_5",
+      "source_file": "Sources/RecoveredElements/UIColorPickerColorAccessibility.m",
+      "implemented": true,
+      "notes": [],
+      "prototype": "void (^)(void)",
+      "evidence": {
+        "ida_kernel": "9.5",
+        "analysis": "Verified input SHA256; Hex-Rays pseudocode, raw constant/math disassembly and referenced CFString/native localization tables."
+      }
+    },
+    {
+      "ea": "0xb758",
+      "end": "0xb7dc",
+      "ida_name": "AXColorGetLuma",
+      "chosen_name": "UIColorPickerAXColorGetLuma",
+      "kind": "normal",
+      "binary": "AXUIUtilities14_5",
+      "source_file": "Sources/RecoveredElements/UIColorPickerColorAccessibility.m",
+      "implemented": true,
+      "notes": [
+        "Public getRed:green:blue:alpha: and separate promoted-float multiply/add operations retained. Failed public getRed returns NAN rather than reading native uninitialized locals."
+      ],
+      "prototype": "static double UIColorPickerAXColorGetLuma(UIColor *color)",
+      "evidence": {
+        "ida_kernel": "9.5",
+        "analysis": "Verified input SHA256; Hex-Rays pseudocode, raw constant/math disassembly and referenced CFString/native localization tables."
+      }
+    }
+  ],
+  "approved_extra_source_functions": [],
+  "adaptations": [
+    "Public color matching substitutes private CGColorTransformCreate/ConvertColorComponents only at the color-space conversion boundary. Values near name classification thresholds require bounded original/public conversion comparison; no claim of all ICC profiles equivalence.",
+    "AXColorStringForColor returns nil when no color name is available, rather than passing nil to native stringWithString:. If public getRed fails for an otherwise named color it omits luma instead of inventing a numeric value.",
+    "Original cached NSNumberFormatter captures its default locale on first use; this behavior is retained.",
+    "The15.5 binary requests key blue green, absent from all39 original resource tables. Native literal-key fallback is preserved. Existing green cyan translations are not substituted.",
+    "Localization is recovered language data from the named system runtime; this manifest does not assert an independent redistribution license.",
+    "Existing Grid labels, Spectrum active/selected value, native favorite labels and manager favorite values consume the recovered name+luma; original interaction and selected traits are unchanged."
+  ],
+  "verification": {
+    "source_review": "Implementation compared with IDA9.5 pseudocode, raw promoted-float constants and native call boundaries. No runtime comparison by this agent.",
+    "runtime": "not run by this agent; parent owns finite integration comparison",
+    "remaining": [
+      "Public non-sRGB conversion equivalence at classification boundaries",
+      "Actual VoiceOver spoken output/focus on iOS12 and15.5"
+    ]
+  },
+  "function_count": 11,
+  "resources": {
+    "source": "iOS15.5 RuntimeRoot/System/Library/Frameworks/Accessibility.framework/*.lproj/Accessibility.strings",
+    "destination": "Resources/UIColorPanelKit.bundle/ColorAccessibility.bundle",
+    "table": "Accessibility",
+    "requested_keys": [
+      "transparent",
+      "white",
+      "black",
+      "gray",
+      "dark",
+      "light",
+      "grayish",
+      "vibrant",
+      "brown",
+      "red",
+      "red orange",
+      "orange",
+      "orange yellow",
+      "yellow",
+      "yellow green",
+      "green",
+      "blue green",
+      "cyan",
+      "cyan blue",
+      "blue",
+      "blue magenta",
+      "magenta",
+      "magenta pink",
+      "pink",
+      "pink red",
+      "color.attributes.format.all",
+      "color.attributes.format.lightness.hue",
+      "color.attributes.format.saturation.hue"
+    ],
+    "extracted_key_count": 27,
+    "source_locale_count": 39,
+    "entries": [
+      {
+        "source_locale": "ar",
+        "locale": "ar",
+        "source_sha256": "9e2c008ae154473ee98a672eeb5acbd9097a60310badca48e252395201c0758b",
+        "output_sha256": "2203e62346ee024b91ac3885890454910f9e905b77b9217051eaae9259e14c72",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "ca",
+        "locale": "ca",
+        "source_sha256": "f6feaafae9c5879f1fe41187ff75e63ff98e5517e9208e49dfff1cb3a2a5ffe6",
+        "output_sha256": "73b5079e3635119482c62c92373d43c8972f2732a1b33407c18262ddf5fc6b3d",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "cs",
+        "locale": "cs",
+        "source_sha256": "2c66bce4115a2c256e3a1010a759d078d46318ba126d457e2ac0be89254289a8",
+        "output_sha256": "48f0a8376beae51c94687a225d2bf23474a340c503106df5ae3e5e127d5af8cc",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "da",
+        "locale": "da",
+        "source_sha256": "0c0225bf14ea351ce158dc63bcf3d87e378f8340beabab9e59137fac90a33b88",
+        "output_sha256": "e8236cd28c124a1280952b2bc767c5f77cfb1bbe63c5edd5375708d4646e8c34",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "de",
+        "locale": "de",
+        "source_sha256": "99a3ca5266d93ebb160393ae48417583a8c351c76eac062c9a8a5f31545888c0",
+        "output_sha256": "039931df076e9af64faf4682acd8f931b437ff5c23a63d962790246202cf1b4a",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "el",
+        "locale": "el",
+        "source_sha256": "4893bdee65697b86e63a1b6a9dc8b83d5206419f828c635aabf32be5bd3d6104",
+        "output_sha256": "7c9d926a0703a0304f98d431a2dbf76e299c9600bb5e13136e9ccd6153f2bcff",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "en",
+        "locale": "en",
+        "source_sha256": "40d040f462ca7c19b1532e9dd3b82087c49798f79efbbb450da5864423b4e768",
+        "output_sha256": "61df0ecd8166dda88769fc0f8a362aca21a0247dcd59a29be8f79f29d7b833cf",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "en_AU",
+        "locale": "en-AU",
+        "source_sha256": "5175a87961e8cddd3ccb3d9d73942606549c53711b9ff05398ed6fd8b842a93d",
+        "output_sha256": "ba346d7f1ff28ea863433cf4501f53b0b52f65b485a5a0ae1bf4ceb68d193ed8",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "en_GB",
+        "locale": "en-GB",
+        "source_sha256": "5175a87961e8cddd3ccb3d9d73942606549c53711b9ff05398ed6fd8b842a93d",
+        "output_sha256": "ba346d7f1ff28ea863433cf4501f53b0b52f65b485a5a0ae1bf4ceb68d193ed8",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "es",
+        "locale": "es",
+        "source_sha256": "939450b86e4b3e424ed8377f08db0deef76ac906827fb271c278b786c12c6f6e",
+        "output_sha256": "40126d07631e02a37dfae47ce735badb08896501383c316eb4af832728447ec0",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "es_419",
+        "locale": "es-419",
+        "source_sha256": "587764d71c07ad6a7e24252a64f8a56ca419e95958800c2a33d35b9bf24ad24d",
+        "output_sha256": "c010d107f1164f8f7d15c009100df6516afae2cfba3dbdb3b87fd86fc1ccda8b",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "fi",
+        "locale": "fi",
+        "source_sha256": "903aa636363ed113a2aaa61b066a0b20baff57f6c8f0bfa24e011e7540169919",
+        "output_sha256": "e3fd88da9564ccfb4595c3edd0789391bf5d439ab25475a640c017d1a4bc7ab0",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "fr",
+        "locale": "fr",
+        "source_sha256": "cc7d688f91b27f9b71773eac01f135b648829a03f6bb2bbf240b3793505d03a9",
+        "output_sha256": "e40267cbf8a68b1e91cf2f05ab7cdc3fed0a029c47ad24e0a382254fb90345d2",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "fr_CA",
+        "locale": "fr-CA",
+        "source_sha256": "c1b2faf1753df9c06427ba06b5d4052c0a2d1cb485f445ec4eb43a226ae70c87",
+        "output_sha256": "4bae61981beeb9d46e6b3b282068618b3d964a574f6dc0ef641a9c5468855952",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "he",
+        "locale": "he",
+        "source_sha256": "fe280862bfe27421a170652325c9fc7b6c9412e07db23901555ee7aaf0c4a537",
+        "output_sha256": "5fabc75db6e91ab8a1db1f81f8de7ca30f810cdeaa63260dfd8b82e9196cd651",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "hi",
+        "locale": "hi",
+        "source_sha256": "27d3fc739a6a1a6d5055112c2229d683cab9c1c01d0f6c5bd616e0c82388e6b6",
+        "output_sha256": "45b516db2cfd33a2a98df9563fe2b6ea7f0bf233e2fd80e8f4b0ad2af1f9586c",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "hr",
+        "locale": "hr",
+        "source_sha256": "6919cb0e1c291442c54cc868f7b5ec912a6a9c1308ab471ad44c51027cf75608",
+        "output_sha256": "b40b7aae010b9989708da43ac34e5ab6d10b1e1c21c2ff9fc33d911f66d0a008",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "hu",
+        "locale": "hu",
+        "source_sha256": "e527c29895147ed323250d04aa63d5ab7375a292383f7602b97d7a8eedabb7d2",
+        "output_sha256": "6d1b7ad3fd9fa93339bd4fddb08a1e80c5372d5767b92dfc6907c17e572ca35b",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "id",
+        "locale": "id",
+        "source_sha256": "d98c56ffb7abeed0d54a2228c4301941306d04ca20f9a1f330589fb510b3019e",
+        "output_sha256": "9c87814b1338bf5a70779e538c319321032a99e80d4ea0828634f75909f5b625",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "it",
+        "locale": "it",
+        "source_sha256": "dedd714b193c81202adb18aafce89e74e71020483da3dc4065bc0c0f3ab009fc",
+        "output_sha256": "41593b6e8baf1c016bc42fd44841b9be09af8ff75d5c9da7a0040a55639a82b1",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "ja",
+        "locale": "ja",
+        "source_sha256": "a2418f445d399c596a725d3ecaf0db796395b1f9007e0759245f7d35addcc6fe",
+        "output_sha256": "9ee77b4ee39a4cab586652c03a3be2ee8072943c88a74f4e2cb01cdf740ca604",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "ko",
+        "locale": "ko",
+        "source_sha256": "1937fd38f8963cb1b1346dfb6d0af11ab9f850cd19e1514918a9ef49e937785e",
+        "output_sha256": "01e6a6904d1d37404d1fa0fa402a5063e565cebd349c522e6de546756442d70e",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "ms",
+        "locale": "ms",
+        "source_sha256": "b55f2bf4f351482c2fb4b746c989038d02143c608752986e1614b0c804eba33a",
+        "output_sha256": "828f3c09ffc3d5846ca5fd536e644ff633c1d78a011e42681bf8c9bd17908e40",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "nl",
+        "locale": "nl",
+        "source_sha256": "a5c2e77aa5a4d1287a74afa578c42d265fd51d9dc568ed3e2756c217fb6d0908",
+        "output_sha256": "3e3d7bfa460057b612c0d3f40e5d2dab056881d0e8494ca9630ced5a53648e6d",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "no",
+        "locale": "no",
+        "source_sha256": "b015982376829493444b50697ce16fd0084f92598fb70185a3eeaf2cde963bab",
+        "output_sha256": "6734831c18eb816352dc23e1ef2a410068ecca97b8286e290fd07d5434a89878",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "pl",
+        "locale": "pl",
+        "source_sha256": "311c5065d225f1a68935670290b1fbc824825494c1858a0bb7201e585b6b431e",
+        "output_sha256": "8849d7ce2edcb0f2fe0c8818b1ca8b4ef3e6b28f158a77be9c1928c112533522",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "pt_BR",
+        "locale": "pt",
+        "source_sha256": "c775aba0b6c9fef99d30553cb6cfc87d703b1a8a786552bfe2459a85ac7be65b",
+        "output_sha256": "0c124d079008a0164ba6055d38a32aca286e95c2668c92ed1e3c3c25e4bbeee4",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "pt_PT",
+        "locale": "pt-PT",
+        "source_sha256": "997e93f5362d535e6937ba53cc41804edcdb39a3cff00e08200bc100b05d79bf",
+        "output_sha256": "16bd42924a95b9454fe002a3a5bbefc4f3b4ab4ee57102c7e281f7e6a2013ff8",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "ro",
+        "locale": "ro",
+        "source_sha256": "b907e93084eb4a0c3a541ca1d0328be8c60fd2ad441a1ffecc4505d34bbd2687",
+        "output_sha256": "5637ae1c667d1bcbc10b687be039b5b892b8e1f72cd2381c27c690f6d7764009",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "ru",
+        "locale": "ru",
+        "source_sha256": "7a201e391b64f4dc8cec655ee9fd89de9dfab0895b89c0a47f6d5a8669526f7b",
+        "output_sha256": "3d6d6fb74aaf59fabf018342b868000f27bc3c1a15eca204c55b87978a157e55",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "sk",
+        "locale": "sk",
+        "source_sha256": "029b551fc362a269545dd2795cf9dd43f5b29c8d18069952beda4aae9f45df63",
+        "output_sha256": "381491a49d88da8b2953cea02c7b68a649712678c85a7948865721d226fa719f",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "sv",
+        "locale": "sv",
+        "source_sha256": "b22fef682e6a0c5d4c6ede9d709da014c7e6a11b09579786f1e2096af8a0a000",
+        "output_sha256": "29c27983d80d12d128ae9580e4c7fba156014a29ddc5b4aad2594c5b8322b881",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "th",
+        "locale": "th",
+        "source_sha256": "f3c40c49c4e43f980843b28980b6bbb3820ff81f4e01a56a05bd19be9f8bc56f",
+        "output_sha256": "bdfb1c1fc280ef6d8252dafd86ececcda3eea0ba05b777424ae1b0505756b350",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "tr",
+        "locale": "tr",
+        "source_sha256": "7d5a4df9c3de70028c80f338a3ac6db576938c1a2d57722a2e00bd286532730a",
+        "output_sha256": "c6df6892e5f86691e853fa13b4c3c2e0e638b2bd95c610e9146e504a344d5e9f",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "uk",
+        "locale": "uk",
+        "source_sha256": "3cdddd793bdae33a2c87273c7e910e77e9bba2d1c86903dd17f44fc5fdcf95f4",
+        "output_sha256": "175edb5ba74951b7f8b81e260f8f53f2bdd3e244701375c32d2a4e78d1a68034",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "vi",
+        "locale": "vi",
+        "source_sha256": "8620f4866a17c602468d0e0467e8ecadd90a4793b359d76987c88f9560e33ba9",
+        "output_sha256": "df69378fe3b7f5ad0c169e808e128bc3aa7ec96b06855fe256aa8639bab8d662",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "zh_CN",
+        "locale": "zh-Hans",
+        "source_sha256": "bd19d2c043a2a953667358380ec39d1a58ee325691b6a44eadbbfbb5536b5048",
+        "output_sha256": "65f97fb3d6b0955ffd6edfea92593b64adf3108e701a13dfbbf96b6e41d11e4b",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "zh_HK",
+        "locale": "zh-Hant-HK",
+        "source_sha256": "d2c7023ac8ecc6750b359e0140966e972f2fa27d0f34f5b277164d73cb3ac141",
+        "output_sha256": "f1688e363f964084a67954ec3792ce63ce84f0ea9f77142084531e863bd7a1d2",
+        "missing_keys": [
+          "blue green"
+        ]
+      },
+      {
+        "source_locale": "zh_TW",
+        "locale": "zh-Hant",
+        "source_sha256": "6937356b5111ddda41ab6d8bf10941dc6e3dd34a9c915f47f1900dabee8495fa",
+        "output_sha256": "07d5876f655120619a7eb2de94982da6c4a9c4bf37f77796361429e261b04d3e",
+        "missing_keys": [
+          "blue green"
+        ]
+      }
+    ],
+    "aliases": [
+      {
+        "source": "no",
+        "alias": "nb",
+        "reason": "project Norwegian Bokmal alias uses identical native values",
+        "output_sha256": "6734831c18eb816352dc23e1ef2a410068ecca97b8286e290fd07d5434a89878"
+      }
+    ]
+  }
+}

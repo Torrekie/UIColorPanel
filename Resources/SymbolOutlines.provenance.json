@@ -1,0 +1,53 @@
+{
+  "asset_kind": "Project-authored interface symbol paths",
+  "output": "Sources/UIColorPanelSymbolOutlines.h",
+  "authoring": "Manually constructed circles, rounded rectangles, lines and Bezier curves. No extracted font glyph coordinates, raster tracing or Apple image data are used in these production paths.",
+  "design": "SF-style monochrome interface geometry; these are project designs, not reproductions or exports of SF Symbols.",
+  "coordinate_size": [
+    24,
+    24
+  ],
+  "stroke_width": 1.75,
+  "line_cap": "round",
+  "line_join": "round",
+  "rendering_mode": "UIImageRenderingModeAlwaysTemplate",
+  "symbols": [
+    "ellipsis.circle",
+    "chevron.down",
+    "plus",
+    "minus",
+    "xmark",
+    "trash",
+    "checkmark",
+    "ellipsis",
+    "wheel",
+    "sliders",
+    "palette",
+    "image",
+    "pencils",
+    "grid",
+    "eyedropper"
+  ],
+  "aliases": {
+    "close": "xmark"
+  },
+  "runtime": "The authored Core Graphics command tables remain available on every supported iOS release. iOS13+ prefers public SF Symbols for the toolbar keys below, using the requested point size, Regular weight and Medium scale. A missing system symbol returns to the authored path; iOS12 uses the authored paths throughout. The Grid-only build uses the grid key for its fifth toolbar item. All images retain template tinting. No font outlines or SF image assets are exported or embedded.",
+  "system_toolbar_symbols": {
+    "wheel": "camera.aperture",
+    "sliders": "slider.horizontal.3",
+    "palette": "square.grid.2x2",
+    "image": "photo",
+    "pencils": "pencil.tip",
+    "grid": "square.grid.3x3.fill"
+  },
+  "system_symbol_availability": {
+    "camera.aperture": "iOS14.0",
+    "slider.horizontal.3": "iOS13.0",
+    "square.grid.2x2": "iOS13.0",
+    "photo": "iOS13.0",
+    "pencil.tip": "iOS13.0"
+  },
+  "availability_source": "Apple SF Symbols2.1 name_availability.plist: SHA-256627fda54a3341c8bd2b2aeec63ea0379a03a5b71c1ca12b328b0b3928cdbdac4. Its2019 and2020 entries map to iOS13.0 and14.0 respectively. Public UIImage symbol lookup determines actual runtime availability and nil preserves the authored fallback.",
+  "scope": "Interface symbols only. Pencil color-selection artwork, analytic Spectrum content and the recovered UIColorPickerWell ring are separate resources or renderers and are not reauthored by this change.",
+  "supersedes": "The former eight SFProDisplay-derived production outlines and six extracted macOS toolbar/pipette images. Historical source records remain separate from these project-authored paths."
+}

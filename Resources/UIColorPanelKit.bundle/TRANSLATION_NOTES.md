@@ -1,0 +1,9 @@
+# Component localization
+
+The bundle contains 40 iOS localization directories: the 39 recorded macOS 13.7.8 language/region variants and an additional nb alias whose Apple-backed values match no. The 104 Apple-backed display keys include the recorded original .loctable/Base.nib entries and Grid from iOS 14.5 (18E182) UIKitCore.framework/Localizable.strings. The ColorPicker extension's own Localizable.strings contains only DNT; its Grid translations reside in UIKitCore. See docs/LOCALIZATION_PARITY_2026-10-23.md and tools/localization-parity-map.json for exact per-key provenance.
+
+Each table also contains 122 component-specific UI and accessibility keys, including Samples the live system display. The three English locales use the declared component English; the 37 non-English locales use the separately maintained tools/localization-drafts/<locale>.json files. These user-authorized translations are marked needs-human-review. They are not Apple text and have not received native-language or VoiceOver review. Drafts cannot replace Apple-backed values. The exporter validates complete key coverage and format arguments before writing the 226-key tables; this establishes resource consistency, not translation quality.
+
+Copy the complete bundle and the other component image/palette resources. A host may override the same keys in its main-bundle UIColorPanelKit.strings table. Lookup falls back through component localization, component English, then the original key. Hosts control their advertised languages; the demos advertise all included variants.
+
+Palette/color display-name localization applies only to original built-in names. Canonical list names, keys, user/imported names, profile identifiers, archives and color values remain unchanged. Numeric formatting/parsing follows the input locale independently of translated labels. No system language or region preference is changed by the library.
